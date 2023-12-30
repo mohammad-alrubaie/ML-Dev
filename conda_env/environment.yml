@@ -1,0 +1,23 @@
+# ------------------------------------
+# To create this environment: conda env create -f environment.yml
+# To activate this environment: conda activate ml_env
+#                To deactivate: conda deactivate
+# To update this environment: conda env update --prune -f environment.yml
+# To remove this environment: conda env remove --name ml_env
+# pip-tools steps: may be needed beforehand => conda install pip-tools
+#     pip-compile -v requirements/prod.in && pip-compile -v requirements/dev.in
+#     pip-sync requirements/prod.txt requirements/dev.txt
+# ------------------------------------
+
+name: ml_env
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python==3.10.13
+  - pytorch-cuda==11.7
+  - pip
+  - pip:
+    - pip-tools
+prefix: C:\Users\main_user\anaconda3\envs\ml_env

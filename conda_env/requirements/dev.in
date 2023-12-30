@@ -1,0 +1,6 @@
+-c prod.txt
+matplotlib
+ipython
+ipykernel
+scikit-learn
+pandas
