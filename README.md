@@ -1,6 +1,8 @@
 # ML-Dev
-Repo to demonstrate a basic ML development environment
-It is meant to accompany a small video playlist, but that series is in Arabic. 
+Repo to demonstrate a basic ML development environment.
+
+***It is meant to accompany a small video playlist, but that series is in Arabic, and it's unlisted at the moment.***
+
 ## Prerequisites
 Software that need to be installed first:
 * Anaconda
